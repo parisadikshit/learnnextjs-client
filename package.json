@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.5",
+    "@stripe/stripe-js": "^1.47.0",
+    "antd": "^5.1.2",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http-proxy-middleware": "^2.0.6",
+    "mongodb-client-encryption": "^2.6.0",
+    "net": "^1.0.2",
+    "next": "^13.1.2",
+    "razorpay": "^2.8.6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-image-file-resizer": "^0.4.8",
+    "react-markdown": "^8.0.5",
+    "react-player": "^2.11.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^9.1.1",
+    "tls": "^0.0.1"
+  }
+}
