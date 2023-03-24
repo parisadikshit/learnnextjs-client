@@ -13,8 +13,8 @@ app.prepare().then(()=>{
        //apply proxy in dev mode
        if(dev){
             server.use('/api',createProxyMiddleware({
-                target: "http://142.93.208.131",
-                // target:"http://localhost:8000",
+                // target: "http://142.93.208.131",
+                target:"http://localhost:8000",
                 changeOrigin:true,
             }))
        }
