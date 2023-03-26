@@ -19,7 +19,7 @@ const Index = ({ courses }) => {
   // root.render(<App />);
   return (
     <>
-      <h1 className="jumbotron text-center bg-primary square">Matrix-uni</h1>
+      <h1 className="jumbotron text-center bg-primary square">LEARN-X</h1>
 
       <div className="container-fluid">
         <div className="row">
